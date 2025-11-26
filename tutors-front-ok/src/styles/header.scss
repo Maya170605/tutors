@@ -1,0 +1,46 @@
+.header {
+  &__top {
+  }
+  &__body {
+  }
+  &__bottom {
+  }
+}
+.top-header {
+  background-color: #fedab8;
+
+  &__container {
+    min-height: 70px;
+    padding: 0px 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo {
+    font-weight: 400;
+    text-shadow: 0px 0.5px 0.5px #000000d4;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 30px;
+  }
+  &__menu {
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+  }
+  &__button {
+    color: #fff;
+    background-color: #ffeff9;
+    color: black;
+    font-size: 14px;
+    border-radius: 15px;
+    padding: 5px 10px;
+    cursor: pointer;
+    @media (any-hover: hover) {
+      &:hover {
+        background-color: #f8deee;
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+//common
+.btn,
+.input {
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.3s ease 0s;
+  width: 100%;
+  cursor: pointer;
+}
+
+//default button
+
+//default input
+.input {
+  outline: none;
+  min-height: 30px;
+  border-radius: 6px;
+  padding: 0px 10px;
+  transition: all 0.3s ease 0s;
+  background-color: #454545;
+  color: #fff;
+}
